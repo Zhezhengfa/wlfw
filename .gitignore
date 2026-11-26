@@ -39,3 +39,9 @@ key.properties
 .trae/
 .trae-html-share-packages/
 .screenshots/
+
+# Gradle / Kotlin build artifacts
+android/.gradle/
+android/.kotlin/
+android/local.properties
+ios/Flutter/Flutter.podspec
