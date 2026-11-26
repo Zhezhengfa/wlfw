@@ -21,6 +21,8 @@ Thumbs.db
 *.apk
 *.aab
 *.app
+# 但保留 dist/ 里的 APK 作为发布附件
+!dist/*.apk
 
 # 密钥
 *.jks

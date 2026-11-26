@@ -15,6 +15,22 @@ HTTP 负责首屏渲染，WebSocket 负责实时叫号变化，两条通道在�
 HTML 原型（Material 3 精修版）：[`prototype/index.html`](prototype/index.html)
 双击即可在浏览器里打开，**底部两条调试切换条**可逐屏核对 HTTP 六态 × WebSocket 三态的所有表现。
 
+## 下载安装
+
+> 仓库路径含中文（`Desktop\网络访问`）导致 AOT snapshotter 无法编译 release APK，故提供 **debug 构建**。
+> 功能完全一致，调试包体积稍大，真机可直接安装运行。
+
+| 架构 | 说明 | 大小 | 下载 |
+|---|---|---|---|
+| **arm64-v8a** | 主流 Android 手机（小米/华为/OPPO/vivo 新机型） | 78.7 MB | [`wlfw-arm64-debug.apk`](dist/wlfw-arm64-debug.apk) |
+| **armeabi-v7a** | 老款 32 位手机 / 模拟器 | 58.7 MB | [`wlfw-arm-debug.apk`](dist/wlfw-arm-debug.apk) |
+
+安装步骤：
+1. 用手机浏览器打开上面的链接下载 APK
+2. 如果微信拦截下载 → 点右上角菜单「在浏览器打开」
+3. 系统提示"未知来源"→ 允许本次安装
+4. 安装完成后打开，默认读本地 mock 数据，不连真实网络
+
 ## 功能
 
 - **双通道架构**：`FutureBuilder`（HTTP 列表快照）+ `StreamBuilder`（WebSocket 推送）同页协同，HTTP 决定骨架视图、推送只 patch 单行叫号大字，不整页重建。
