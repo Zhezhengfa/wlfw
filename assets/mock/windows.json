@@ -1,0 +1,30 @@
+[
+  {
+    "id": "w1",
+    "name": "A厅 · 个人业务",
+    "currentNumber": "A023",
+    "waitingCount": 8,
+    "updatedAt": 1732550400
+  },
+  {
+    "id": "w2",
+    "name": "B厅 · 对公业务",
+    "currentNumber": "B015",
+    "waitingCount": 3,
+    "updatedAt": 1732550400
+  },
+  {
+    "id": "w3",
+    "name": "C厅 · 综合服务",
+    "currentNumber": "C007",
+    "waitingCount": 12,
+    "updatedAt": 1732550400
+  },
+  {
+    "id": "w4",
+    "name": "D厅 · VIP 通道",
+    "currentNumber": "V002",
+    "waitingCount": 0,
+    "updatedAt": 1732550400
+  }
+]
