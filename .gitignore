@@ -1,0 +1,39 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# APK / build artifacts
+*.apk
+*.aab
+*.app
+
+# 密钥
+*.jks
+*.p12
+*.pem
+key.properties
+
+# 原始素材（已拷入 prototype/ docs/ screenshots/）
+叫号通_骨架.html
+叫号通_草图一.png
+网络访问与异步交互方案/
+
+# Trae
+.trae/
+.trae-html-share-packages/
+.screenshots/
