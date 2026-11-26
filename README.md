@@ -20,14 +20,20 @@ HTML 原型（Material 3 精修版）：[`prototype/index.html`](prototype/index
 > 仓库路径含中文（`Desktop\网络访问`）导致 AOT snapshotter 无法编译 release APK，故提供 **debug 构建**。
 > 功能完全一致，调试包体积稍大，真机可直接安装运行。
 
-| 架构 | 说明 | 大小 | 下载 |
-|---|---|---|---|
-| **arm64-v8a** | 主流 Android 手机（小米/华为/OPPO/vivo 新机型） | 78.7 MB | [`wlfw-arm64-debug.apk`](dist/wlfw-arm64-debug.apk) |
-| **armeabi-v7a** | 老款 32 位手机 / 模拟器 | 58.7 MB | [`wlfw-arm-debug.apk`](dist/wlfw-arm-debug.apk) |
+**扫码下载 Android 版**（微信拦截 → 右上角「在浏览器打开」）：
+
+| 主流手机 arm64 | 老款手机 arm |
+|---|---|
+| [![arm64 下载二维码](screenshots/download_arm64.png)](dist/wlfw-arm64-debug.apk) | [![arm 下载二维码](screenshots/download_arm.png)](dist/wlfw-arm-debug.apk) |
+| **78.7 MB** · 小米/华为/OPPO/vivo 新机型 | **58.7 MB** · 32 位老机型 / 模拟器 |
+
+也可以直接点链接下载：
+- [`wlfw-arm64-debug.apk`](dist/wlfw-arm64-debug.apk)（arm64-v8a，推荐）
+- [`wlfw-arm-debug.apk`](dist/wlfw-arm-debug.apk)（armeabi-v7a）
 
 安装步骤：
-1. 用手机浏览器打开上面的链接下载 APK
-2. 如果微信拦截下载 → 点右上角菜单「在浏览器打开」
+1. 扫上面对应二维码，或用手机浏览器点下载链接
+2. 微信拦截下载 → 右上角菜单「在浏览器打开」
 3. 系统提示"未知来源"→ 允许本次安装
 4. 安装完成后打开，默认读本地 mock 数据，不连真实网络
 
